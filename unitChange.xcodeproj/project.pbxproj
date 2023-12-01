@@ -15,6 +15,8 @@
 		09A861432B19AE3100ABCAEB /* KilometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A861422B19AE3100ABCAEB /* KilometerViewController.swift */; };
 		CBA53C122B19A98E00FE5626 /* MoneyExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA53C112B19A98E00FE5626 /* MoneyExchange.swift */; };
  		CBA53C142B19AC7500FE5626 /* MoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA53C132B19AC7500FE5626 /* MoneyViewController.swift */; };
+		B0BCCB6F2B19AD9B0091BC98 /* TemperatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BCCB6E2B19AD9B0091BC98 /* TemperatureModel.swift */; };
+ 		B0BCCB712B19AFF50091BC98 /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BCCB702B19AFF50091BC98 /* TemperatureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		09A861422B19AE3100ABCAEB /* KilometerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KilometerViewController.swift; sourceTree = "<group>"; };
 		CBA53C112B19A98E00FE5626 /* MoneyExchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyExchange.swift; sourceTree = "<group>"; };
  		CBA53C132B19AC7500FE5626 /* MoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyViewController.swift; sourceTree = "<group>"; };
+		B0BCCB6E2B19AD9B0091BC98 /* TemperatureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureModel.swift; sourceTree = "<group>"; };
+ 		B0BCCB702B19AFF50091BC98 /* TemperatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
