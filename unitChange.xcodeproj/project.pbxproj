@@ -14,6 +14,7 @@
 		09A861362B19A2D000ABCAEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A861352B19A2D000ABCAEB /* Assets.xcassets */; };
 		09A861392B19A2D000ABCAEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A861372B19A2D000ABCAEB /* LaunchScreen.storyboard */; };
 		09A861412B19A33B00ABCAEB /* Kilometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A861402B19A33B00ABCAEB /* Kilometer.swift */; };
+		09A861432B19AE3100ABCAEB /* KilometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A861422B19AE3100ABCAEB /* KilometerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		09A861382B19A2D000ABCAEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09A8613A2B19A2D000ABCAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09A861402B19A33B00ABCAEB /* Kilometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kilometer.swift; sourceTree = "<group>"; };
+		09A861422B19AE3100ABCAEB /* KilometerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KilometerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				09A861372B19A2D000ABCAEB /* LaunchScreen.storyboard */,
 				09A8613A2B19A2D000ABCAEB /* Info.plist */,
 				09A861402B19A33B00ABCAEB /* Kilometer.swift */,
+				09A861422B19AE3100ABCAEB /* KilometerViewController.swift */,
 			);
 			path = unitChange;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A861432B19AE3100ABCAEB /* KilometerViewController.swift in Sources */,
 				09A861312B19A2CF00ABCAEB /* ViewController.swift in Sources */,
 				09A8612D2B19A2CF00ABCAEB /* AppDelegate.swift in Sources */,
 				09A861412B19A33B00ABCAEB /* Kilometer.swift in Sources */,
