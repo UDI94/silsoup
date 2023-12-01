@@ -22,8 +22,8 @@ class KilometerViewController: UIViewController {
         
         kilometer.length = length
         meterLabel.text = "\(kilometer.meter())m"
-        cmLabel.text = "\(kilometer.centimeter())m"
-        mmLabel.text = "\(kilometer.millimeter())m"
+        cmLabel.text = "\(kilometer.centimeter())cm"
+        mmLabel.text = "\(kilometer.millimeter())mm"
         
     }
 }
