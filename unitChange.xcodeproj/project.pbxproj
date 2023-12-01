@@ -14,6 +14,8 @@
 		09A861362B19A2D000ABCAEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A861352B19A2D000ABCAEB /* Assets.xcassets */; };
 		09A861392B19A2D000ABCAEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A861372B19A2D000ABCAEB /* LaunchScreen.storyboard */; };
 		09A861412B19A33B00ABCAEB /* Kilometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A861402B19A33B00ABCAEB /* Kilometer.swift */; };
+		B0BCCB6F2B19AD9B0091BC98 /* TemperatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BCCB6E2B19AD9B0091BC98 /* TemperatureModel.swift */; };
+		B0BCCB712B19AFF50091BC98 /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BCCB702B19AFF50091BC98 /* TemperatureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		09A861382B19A2D000ABCAEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09A8613A2B19A2D000ABCAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09A861402B19A33B00ABCAEB /* Kilometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kilometer.swift; sourceTree = "<group>"; };
+		B0BCCB6E2B19AD9B0091BC98 /* TemperatureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureModel.swift; sourceTree = "<group>"; };
+		B0BCCB702B19AFF50091BC98 /* TemperatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				09A8612C2B19A2CF00ABCAEB /* AppDelegate.swift */,
 				09A8612E2B19A2CF00ABCAEB /* SceneDelegate.swift */,
 				09A861302B19A2CF00ABCAEB /* ViewController.swift */,
+				B0BCCB702B19AFF50091BC98 /* TemperatureViewController.swift */,
+				B0BCCB6E2B19AD9B0091BC98 /* TemperatureModel.swift */,
 				09A861322B19A2CF00ABCAEB /* Main.storyboard */,
 				09A861352B19A2D000ABCAEB /* Assets.xcassets */,
 				09A861372B19A2D000ABCAEB /* LaunchScreen.storyboard */,
@@ -144,7 +150,9 @@
 				09A861312B19A2CF00ABCAEB /* ViewController.swift in Sources */,
 				09A8612D2B19A2CF00ABCAEB /* AppDelegate.swift in Sources */,
 				09A861412B19A33B00ABCAEB /* Kilometer.swift in Sources */,
+				B0BCCB6F2B19AD9B0091BC98 /* TemperatureModel.swift in Sources */,
 				09A8612F2B19A2CF00ABCAEB /* SceneDelegate.swift in Sources */,
+				B0BCCB712B19AFF50091BC98 /* TemperatureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

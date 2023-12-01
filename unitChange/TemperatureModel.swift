@@ -7,12 +7,26 @@
 
 import Foundation
 
-class OnDoModel {
+class Temperature {
     
-    var OnDo: Double = 0.0
+    // 섭씨(기준)
+    var temperature: Double = 0.0
+
+    // 섭씨
+    func celsius() -> Double {
+        return temperature
+    }
     
-    func On
+    // 화씨
+    func fahrenheit() -> Double {
+        let fahrenheit: Double = (temperature * 9/5) + 32
+        return fahrenheit
+    }
     
-    
+    // 켈빈
+    func kelvin() -> Double {
+        let kelvin: Double = temperature + 273.15
+        return kelvin
+    }
     
 }
