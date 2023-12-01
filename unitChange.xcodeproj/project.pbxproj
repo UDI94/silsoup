@@ -13,7 +13,6 @@
 		09A861342B19A2CF00ABCAEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A861322B19A2CF00ABCAEB /* Main.storyboard */; };
 		09A861362B19A2D000ABCAEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A861352B19A2D000ABCAEB /* Assets.xcassets */; };
 		09A861392B19A2D000ABCAEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A861372B19A2D000ABCAEB /* LaunchScreen.storyboard */; };
-		09A861412B19A33B00ABCAEB /* Kilometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A861402B19A33B00ABCAEB /* Kilometer.swift */; };
 		09A861432B19AE3100ABCAEB /* KilometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A861422B19AE3100ABCAEB /* KilometerViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		09A861352B19A2D000ABCAEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09A861382B19A2D000ABCAEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09A8613A2B19A2D000ABCAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09A861402B19A33B00ABCAEB /* Kilometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kilometer.swift; sourceTree = "<group>"; };
 		09A861422B19AE3100ABCAEB /* KilometerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KilometerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +58,8 @@
 		09A8612B2B19A2CF00ABCAEB /* unitChange */ = {
 			isa = PBXGroup;
 			children = (
+				CBA53C132B19AC7500FE5626 /* MoneyViewController.swift */,
+				CBA53C112B19A98E00FE5626 /* MoneyExchange.swift */,
 				09A8612C2B19A2CF00ABCAEB /* AppDelegate.swift */,
 				09A8612E2B19A2CF00ABCAEB /* SceneDelegate.swift */,
 				09A861302B19A2CF00ABCAEB /* ViewController.swift */,
@@ -146,7 +146,9 @@
 			files = (
 				09A861432B19AE3100ABCAEB /* KilometerViewController.swift in Sources */,
 				09A861312B19A2CF00ABCAEB /* ViewController.swift in Sources */,
+				CBA53C122B19A98E00FE5626 /* MoneyExchange.swift in Sources */,
 				09A8612D2B19A2CF00ABCAEB /* AppDelegate.swift in Sources */,
+				CBA53C142B19AC7500FE5626 /* MoneyViewController.swift in Sources */,
 				09A861412B19A33B00ABCAEB /* Kilometer.swift in Sources */,
 				09A8612F2B19A2CF00ABCAEB /* SceneDelegate.swift in Sources */,
 			);
