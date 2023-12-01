@@ -33,15 +33,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EAb-iS-k06">
-                                <rect key="frame" x="0.0" y="167" width="393" height="50.333333333333343"/>
+                                <rect key="frame" x="16" y="167" width="361" height="50.333333333333343"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EpL-ue-P8i">
-                                        <rect key="frame" x="0.0" y="0.0" width="343.33333333333331" height="50.333333333333336"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="311.33333333333331" height="50.333333333333336"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="km" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ldc-Pr-BDW">
-                                        <rect key="frame" x="348.33333333333331" y="0.0" width="44.666666666666686" height="50.333333333333336"/>
+                                        <rect key="frame" x="316.33333333333331" y="0.0" width="44.666666666666686" height="50.333333333333336"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -80,18 +80,18 @@
                         <viewLayoutGuide key="safeArea" id="zt6-7i-12j"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="EAb-iS-k06" firstAttribute="leading" secondItem="zt6-7i-12j" secondAttribute="leading" id="I9r-2V-Vw0"/>
                             <constraint firstItem="XbV-Jd-RdD" firstAttribute="top" secondItem="EAb-iS-k06" secondAttribute="bottom" constant="85" id="IGa-IN-AXO"/>
                             <constraint firstItem="vzA-f2-msL" firstAttribute="centerX" secondItem="g9J-Oz-Y93" secondAttribute="centerX" id="IpB-jI-UuR"/>
                             <constraint firstItem="JSo-Zl-qBy" firstAttribute="top" secondItem="uQc-FD-wmJ" secondAttribute="bottom" constant="8" symbolic="YES" id="L4J-yl-y03"/>
                             <constraint firstItem="EAb-iS-k06" firstAttribute="top" secondItem="zt6-7i-12j" secondAttribute="top" constant="167" id="MTu-5t-ebJ"/>
                             <constraint firstItem="JSo-Zl-qBy" firstAttribute="centerX" secondItem="g9J-Oz-Y93" secondAttribute="centerX" id="N3e-bE-0YO"/>
+                            <constraint firstItem="zt6-7i-12j" firstAttribute="trailing" secondItem="EAb-iS-k06" secondAttribute="trailing" constant="16" id="Nai-lJ-TkJ"/>
+                            <constraint firstItem="EAb-iS-k06" firstAttribute="centerX" secondItem="g9J-Oz-Y93" secondAttribute="centerX" id="dIj-af-tpp"/>
+                            <constraint firstItem="EAb-iS-k06" firstAttribute="leading" secondItem="zt6-7i-12j" secondAttribute="leading" constant="16" id="geS-rh-JrS"/>
                             <constraint firstItem="XbV-Jd-RdD" firstAttribute="centerX" secondItem="g9J-Oz-Y93" secondAttribute="centerX" id="jnn-em-N1X"/>
-                            <constraint firstItem="zt6-7i-12j" firstAttribute="trailing" secondItem="EAb-iS-k06" secondAttribute="trailing" id="l7I-gP-ye4"/>
                             <constraint firstItem="uQc-FD-wmJ" firstAttribute="centerX" secondItem="g9J-Oz-Y93" secondAttribute="centerX" id="nNQ-5D-4p0"/>
                             <constraint firstItem="vzA-f2-msL" firstAttribute="top" secondItem="XbV-Jd-RdD" secondAttribute="bottom" id="peY-JQ-zLI"/>
                             <constraint firstItem="uQc-FD-wmJ" firstAttribute="top" secondItem="vzA-f2-msL" secondAttribute="bottom" constant="8" symbolic="YES" id="twB-yW-YoL"/>
-                            <constraint firstItem="EAb-iS-k06" firstAttribute="centerX" secondItem="g9J-Oz-Y93" secondAttribute="centerX" id="zvy-hH-UV4"/>
                         </constraints>
                     </view>
                     <connections>
